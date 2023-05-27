@@ -1,0 +1,47 @@
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -1.69rem auto 4rem;
+}
+
+.input {
+  width: 38rem;
+  line-height: 1.4;
+  color: var(--base-gray-100);
+  font-size: 1rem;
+  padding: 1rem;
+  background-color: var(--base-gray-500);
+  border: 1px solid var(--base-gray-700);
+  border-radius: 10px;
+}
+
+.input:focus {
+  outline: 1px solid var(--produto-purple-dark);
+}
+
+.input::placeholder {
+  color: var(--base-gray-300);
+}
+
+.button {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-weight: bold;
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  gap: 0.5rem;
+  box-shadow: none;
+  border: none;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: var(--produto-blue-dark-100);
+  color: var(--base-gray-100);
+}
+
+.button:hover {
+  background-color: var(--produto-blue);
+}

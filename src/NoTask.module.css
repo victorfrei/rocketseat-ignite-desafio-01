@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--base-gray-300);
+  line-height: 1.4;
+  padding: 4rem 1.5rem;
+  gap: 1rem;
+}
+
+.container p{
+    padding: 0;
+    margin: 0;
+}
